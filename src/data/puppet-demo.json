@@ -1,0 +1,11 @@
+{
+  "id": "scientist-puppet-demo",
+  "duration": 12,
+  "background": "#f4f7fb",
+  "actors": [
+    {"id": "actor1", "character": "scientist", "animation": "walk", "from": [-180, 1510], "to": [455, 1510], "start": 0, "duration": 4, "scale": 1.18, "facing": "right"},
+    {"id": "actor1", "character": "scientist", "animation": "idle", "from": [455, 1510], "to": [455, 1510], "start": 4, "duration": 1.5, "scale": 1.18, "facing": "right"},
+    {"id": "actor1", "character": "scientist", "animation": "point", "from": [455, 1510], "to": [455, 1510], "start": 5.5, "duration": 3, "scale": 1.18, "facing": "right"},
+    {"id": "actor1", "character": "scientist", "animation": "wave", "from": [455, 1510], "to": [455, 1510], "start": 8.5, "duration": 3.5, "scale": 1.18, "facing": "right"}
+  ]
+}

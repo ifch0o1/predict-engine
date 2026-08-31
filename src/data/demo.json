@@ -1,0 +1,45 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "characterColor": "#101828",
+  "scenes": [
+    {
+      "id": "meet",
+      "duration": 4,
+      "background": "#F4F7FB",
+      "accent": "#635BFF",
+      "title": "MEET DOT",
+      "subtitle": "A stick figure controlled entirely by JSON",
+      "cues": [
+        {"action": "idle", "start": 0, "end": 2, "x": 0.5, "y": 0.76},
+        {"action": "talk", "start": 2, "end": 4, "x": 0.5, "y": 0.76, "text": "Hello! I’m rendered with SVG."}
+      ]
+    },
+    {
+      "id": "move",
+      "duration": 5,
+      "background": "#FFF7ED",
+      "accent": "#F97316",
+      "title": "WALK + POINT",
+      "subtitle": "Every motion is deterministic and frame-perfect",
+      "cues": [
+        {"action": "walk", "start": 0, "end": 3, "x": 0.2, "toX": 0.62, "y": 0.76},
+        {"action": "point", "start": 3, "end": 5, "x": 0.62, "y": 0.76, "text": "Add scenes here"}
+      ]
+    },
+    {
+      "id": "fall",
+      "duration": 4,
+      "background": "#ECFDF3",
+      "accent": "#12B76A",
+      "title": "COMEDIC TIMING INCLUDED",
+      "subtitle": "No paid assets. No animation library. Just React + SVG.",
+      "cues": [
+        {"action": "idle", "start": 0, "end": 1, "x": 0.48, "y": 0.76},
+        {"action": "fall", "start": 1, "end": 3, "x": 0.48, "y": 0.76},
+        {"action": "idle", "start": 3, "end": 4, "x": 0.65, "y": 0.88}
+      ]
+    }
+  ]
+}

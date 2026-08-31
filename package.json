@@ -1,0 +1,24 @@
+{
+  "name": "predict-engine",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "build": "remotion bundle",
+    "typecheck": "tsc --noEmit",
+    "still": "remotion still src/index.ts PuppetDemo out/puppet-preview.png --frame=210",
+    "render": "remotion render src/index.ts PuppetDemo out/puppet-demo.mp4",
+    "render:stickman": "remotion render src/index.ts StickFigureVideo out/stick-figure.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}
