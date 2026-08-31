@@ -1,1 +1,10 @@
 node_modules/ 
+.pnpm-store/
+out/
+dist/
+.env
+.env.*
+*.mp4
+*.mov
+*.webm
+*.log
